@@ -45,7 +45,7 @@ app.get('/api/v1/products', async(req, res) =>{
     }
 })
 
-const PORT = procss.env.PORT
+const PORT = process.env.PORT
 
 app.listen(PORT, () =>{
     console.log("Server is running on port "+ PORT)
